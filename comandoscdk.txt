@@ -1,0 +1,20 @@
+
+cdk list
+
+cdk deploy Vpc Cluster Service01
+
+cdk destroy Vpc Cluster Service01
+
+
+
+
+
+
+Subir o servico de rds - Banco de dados
+cdk deploy --parameters Rds:databasePassword=sapucai5878 Rds Service01 Vpc Cluster
+
+RDS: aws-project01-db.cnw4kii0g85b.us-east-1.rds.amazonaws.com
+RDS: sapucai5878
+
+
+
