@@ -7,6 +7,7 @@ import java.nio.file.Path;
 public class FileReaderVersion {
 
     public String readFile() {
+        // Ajustar esse path, para quando for mudar de pasta o version.txt
         String path = "D:\\projetos_estudos\\aws_project_siecola\\version.txt";
         try {
             String content = Files.readString(Path.of(path)).trim();
