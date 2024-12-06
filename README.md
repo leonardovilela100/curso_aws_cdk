@@ -1,14 +1,16 @@
 # curso_aws_cdk
 "Utilizando o AWS CDK (Cloud Development Kit) para criar e gerenciar recursos na AWS por meio de código em Java.
 
+O serviço é responsável por provisionar e configurar os seguintes recursos na AWS:
 
-# Welcome to your CDK Java project!
+RDS (Relational Database Service)
+SNS (Simple Notification Service)
+VPC (Virtual Private Cloud)
+ECS Cluster (Elastic Container Service Cluster)
+Service Group
+Target Group
+Auto Scaling
 
-This is a blank project for CDK development with Java.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
 
 ## Useful commands
 
@@ -18,5 +20,3 @@ It is a [Maven](https://maven.apache.org/) based project, so you can open this p
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk docs`        open CDK documentation
-
-Enjoy!
