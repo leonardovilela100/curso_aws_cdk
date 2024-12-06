@@ -1,5 +1,5 @@
 # curso_aws_cdk
-"Utilizando o AWS CDK (Cloud Development Kit) para criar e gerenciar recursos na AWS por meio de código em Java.
+Implementando a criação e gerenciamento de recursos na AWS utilizando o AWS CDK (Cloud Development Kit) com código em Java, proporcionando maior controle e automação na infraestrutura como código (IaC).
 
 O serviço é responsável por provisionar e configurar os seguintes recursos na AWS:
 
