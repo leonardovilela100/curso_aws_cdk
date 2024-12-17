@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class FileReaderVersionProject02 {
+public class FileReaderVersionProject {
 
     public String readFile(int project) {
         // Ajustar esse path, para quando for mudar de pasta o version.txt

@@ -30,9 +30,10 @@ public class Service01Stack extends Stack {
         envVariables.put("AWS_REGION", "us-east-1");
         envVariables.put("AWS_SNS_TOPIC_PRODUCT_EVENTS_ARN", productEventsTopic.getTopic().getTopicArn());
 
-        FileReaderVersion fileReader = new FileReaderVersion();
+        FileReaderVersionProject fileReader = new FileReaderVersionProject();
 
-        String version = fileReader.readFile();
+        String version = fileReader.readFile(1);
+        System.out.println("Service01Stack");
         System.out.println("Versão lida do arquivo: " + version);
 
 
